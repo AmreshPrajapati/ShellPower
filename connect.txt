@@ -1,0 +1,5 @@
+ssh -i Key.pem ubuntu@34.83.65.90 << 'ENDSSH'
+
+sudo su
+./direct-vpn-cert.sh <email-id>
+ENDSSH
